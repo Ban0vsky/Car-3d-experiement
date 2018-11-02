@@ -1,0 +1,146 @@
+html{
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  /* background-color: aquamarine */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 800px;
+}
+
+.car{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transform:translateZ(0px) translatey(0px) rotatex(0deg) rotatey(0deg) rotate(0deg);
+}
+
+.background{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 800px;
+}
+
+.jante{
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  position:absolute;
+  border: solid 3px black;
+}
+
+.firstwheel{
+  transform:translateZ(0px) translatey(0px) rotatex(0deg) rotatey(-45deg) rotate(0deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+}
+
+.wheels{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jante-left{
+  transform:translateZ(150px) translatey(0px) rotatex(0deg) rotatey(0deg) rotate(0deg);
+}
+.jante-right{
+  transform:translateZ(0px) translatey(0px) rotatex(0deg) rotatey(0deg) rotate(0deg);
+  transform-style: preserve-3d;
+}
+
+.tire{
+  background-color: black;
+  height: 25px;
+  width: 150px;
+  position: absolute;
+}
+
+.tireOne{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireTwo{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireThree{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireFour{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireFive{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireSix{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireSeven{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireEight{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireNine{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireTen{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+
+.tireEleven{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireTwelve{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireThirteen{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireFourteen{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireFifteen{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireSixteen{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireSeventeen{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
+.tireEighteen{
+  transform:translateZ(75px) translatey(-20px) translatex(0px) rotatey(90deg) rotatex(90deg) rotate(0deg);
+}
+
